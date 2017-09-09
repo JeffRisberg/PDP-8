@@ -1,0 +1,34 @@
+/* this file contains overrides for the PDP-8 appearance.
+
+The primary colors are red="D32903" and orange="FFC317"
+*/
+
+#header {
+	background: #000 url("images/PDP8header.gif") no-repeat center bottom;
+}
+
+#footer p {
+	color: #fff;
+	border-top: 5px solid #FFC317;
+}
+
+.post>h2>a {
+	border-left: #FFC317 solid 20px;
+	border-top: #FFC317 solid 2px;
+}
+
+h2.pagetitle {
+	background: #000;
+	border-left: #FFC317 solid 20px;
+	border-top: #FFC317 solid 2px;
+}
+
+#sidebar h2 {
+	background: #000;
+	border-left: #FFC317 solid 20px;
+	border-top: #FFC317 solid 2px;
+}
+
+#wp-calendar tbody a {
+	background: #D32903;
+}
